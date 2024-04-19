@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="udp_communication"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\udp_library\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/esmacat/stefano/udp_communication/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/esmacat/stefano/udp_communication/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/esmacat/stefano/udp_communication/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udp_client_example">
+				<Option output="/home/esmacat/stefano/udp_communication/build/udp_client_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/esmacat/stefano/udp_communication/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 udp_client_example"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udp_client_example/fast">
+				<Option output="/home/esmacat/stefano/udp_communication/build/udp_client_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/esmacat/stefano/udp_communication/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 udp_client_example/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/esmacat/stefano/udp_communication/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udp_server_example">
+				<Option output="/home/esmacat/stefano/udp_communication/build/udp_server_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/esmacat/stefano/udp_communication/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 udp_server_example"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udp_server_example/fast">
+				<Option output="/home/esmacat/stefano/udp_communication/build/udp_server_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/esmacat/stefano/udp_communication/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 udp_server_example/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udp">
+				<Option output="/home/esmacat/stefano/udp_communication/build/udp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/esmacat/stefano/udp_communication/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/esmacat/stefano/udp_communication/build"/>
+					<Add directory="/home/esmacat/stefano/udp_communication/udp_library"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 udp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udp/fast">
+				<Option output="/home/esmacat/stefano/udp_communication/build/udp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/esmacat/stefano/udp_communication/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/esmacat/stefano/udp_communication/build"/>
+					<Add directory="/home/esmacat/stefano/udp_communication/udp_library"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 udp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/esmacat/stefano/udp_communication/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/esmacat/stefano/udp_communication/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/esmacat/stefano/udp_communication/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udp_library">
+				<Option output="/home/esmacat/stefano/udp_communication/build/udp_library/libudp_library.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/esmacat/stefano/udp_communication/build/udp_library"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/udp_library/Makefile&quot;  VERBOSE=1 udp_library"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/udp_library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/udp_library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/udp_library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udp_library/fast">
+				<Option output="/home/esmacat/stefano/udp_communication/build/udp_library/libudp_library.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/esmacat/stefano/udp_communication/build/udp_library"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/udp_library/Makefile&quot;  VERBOSE=1 udp_library/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/udp_library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/udp_library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/esmacat/stefano/udp_communication/build/udp_library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/esmacat/stefano/udp_communication/main.cpp">
+			<Option target="udp"/>
+		</Unit>
+		<Unit filename="/home/esmacat/stefano/udp_communication/main_client.cpp">
+			<Option target="udp_client_example"/>
+		</Unit>
+		<Unit filename="/home/esmacat/stefano/udp_communication/main_server.cpp">
+			<Option target="udp_server_example"/>
+		</Unit>
+		<Unit filename="/home/esmacat/stefano/udp_communication/udp_library/udp_library.cpp">
+			<Option target="udp_library"/>
+		</Unit>
+		<Unit filename="/home/esmacat/stefano/udp_communication/udp_library/udp_library.h">
+			<Option target="udp_library"/>
+		</Unit>
+		<Unit filename="/home/esmacat/stefano/udp_communication/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/esmacat/stefano/udp_communication/udp_library/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\udp_library\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

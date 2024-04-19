@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../udp_library/udp_library.h
+
+/home/esmacat/stefano/udp_communication/main.cpp
+iostream
+-
+udp_library.h
+/home/esmacat/stefano/udp_communication/udp_library.h
+
