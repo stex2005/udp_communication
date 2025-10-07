@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/udp.dir/main.cpp.o  -o udp udp_library/libudp_library.a 
